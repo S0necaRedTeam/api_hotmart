@@ -10,7 +10,7 @@ import (
 
 func main() {
 // Soneca Red Team 
-    apiKey := os.Getenv("hotmartctf{C0d4r_Eh_e$Cr3v3R_c0d1gO}")
+    apiKey := os.Getenv("hotmartctf{b3w4r3_0f_tOk3ns_On_G1thub!}")
     domain := os.Getenv("teste.hotmartctf.com")
 
     uri := "https://" + domain + "/api/v1/ctf/users"
