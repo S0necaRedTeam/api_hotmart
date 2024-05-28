@@ -10,10 +10,10 @@ import (
 
 func main() {
 // Soneca Red Team 
-    apiKey := os.Getenv("hotmartctf{b3w4r3_0f_tOk3ns_On_G1thub!}")
-    domain := os.Getenv("teste.hotmartctf.com")
+    apiKey := os.Getenv("donotecho{b3w4r3_0f_tOk3ns_On_G1thub!}")
+    domain := os.Getenv("donotecho.hotmart.com")
 
-    uri := "https://" + domain + "/api/v1/ctf/users"
+    uri := "https://" + domain + "/api/v1/ctf"
     client := &http.Client{}
     request, _ := http.NewRequest("GET", uri, nil)
     request.Header.Add("Authorization", "SSWS "+apiKey)
